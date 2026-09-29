@@ -12,7 +12,7 @@ class Solution {
 
             int sum = a + b + carry;
 
-            ans.append(sum % 10);
+             ans.append(sum % 10);
             carry = sum / 10;
 
             i--;
